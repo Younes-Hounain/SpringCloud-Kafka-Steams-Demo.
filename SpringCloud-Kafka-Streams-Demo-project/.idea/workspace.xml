@@ -16,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/springcloudkafkastreamsdemoproject/services/PageEventService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/springcloudkafkastreamsdemoproject/web/PageEventRestController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/springcloudkafkastreamsdemoproject/SpringCloudKafkaStreamsDemoProjectApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -61,6 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.SpringCloudKafkaStreamsDemoProjectApplication.executor": "Run",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -95,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704155921099</updated>
-      <workItem from="1704155922336" duration="7935000" />
+      <workItem from="1704155922336" duration="12847000" />
     </task>
     <servers />
   </component>

@@ -33,7 +33,7 @@ public class PageEventService {
                 Math.random()>0.5?"P1":"P2",
                 Math.random()>0.5?"U1":"U2",
                 new Date(),
-                new Random().nextInt(9000));
+                new Random().nextInt(1000));
     }
 
     @Bean
@@ -51,7 +51,7 @@ public class PageEventService {
             return input.filter((k,v) -> v.getDuration()>100)
                     .map((k,v) -> new KeyValue<>(v.getName(),0L))
                     .groupBy((k,v) -> k, Grouped.with(Serdes.String(),Serdes.Long()))
-                    .windowedBy(TimeWindows.ofSizeWithNoGrace(Duration.ofMillis(5000)))
+                    .windowedBy(TimeWindows.of(Duration.ofMillis(5000)))
                     .count(Materialized.as("page-count"))
                     .toStream()
                     .map((k,v) -> new KeyValue<>("=>"+k.window().startTime()+k.window().endTime()+k.key(),v));
